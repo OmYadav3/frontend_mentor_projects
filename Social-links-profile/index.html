@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          screens: {
+            'xs': '375px',
+            // => @media (min-width: 375px) { ... }  //mobile
+          },
+          colors: {
+            Gray: 'hsl(0, 0%, 20%)',
+            Green: 'hsl(75, 94%, 57%)',
+            DarkGrey: 'hsl(0, 0%, 12%)',
+            OffBlack: 'hsl(0, 0%, 8%)',
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      color: white;
+      background-color: black;
+    }
+
+    @media screen and (max-width: 500px) {
+      :root {
+        font-size: 10px;
+      }
+
+    }
+
+    @media screen and (max-width: 800px) {
+      :root {
+        font-size: 12px;
+      }
+
+    }
+
+    @media screen and (max-width: 1200px) { 
+      :root {
+        font-size: 14px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-container w-screen h-screen flex items-center justify-center ">
+    <div
+      class="container lg:w-[30vw]  md:w-[37vw] sm:w-[50vw] xs:w-[75vw] p-9 p-4 bg-DarkGrey flex flex-col justify-center items-center rounded-lg m-4">
+      <div class="img my-2"><img class="rounded-full min-w-24 max-w-24" src="./images/avatar-jessica.jpeg" alt=""></div>
+      <div class="user-name flex flex-col items-center justify-center gap-1">
+        <h2 class="text-3xl">Jessica Randall</h2>
+        <div class="location text-yellow-200 ">London, United Kingdom</div>
+      </div>
+
+      <div class="bio my-6">"Front-end developer and avid reader."</div>
+
+      <div class="social-media w-full flex flex-col items-center justify-center gap-4 my-2">
+        <a class="w-full p-2 rounded-[0.3rem] text-center hover:bg-Green hover:text-black hover:scale-105 font-semibold bg-Gray "
+          href="https://github.com/">Github</a>
+        <a class="w-full p-2 rounded-[0.3rem] text-center hover:bg-Green hover:text-black hover:scale-105 font-semibold bg-Gray "
+          href=" https://www.frontendmentor.io/">Frontent
+          Mentor</a>
+        <a class="w-full p-2 rounded-[0.3rem] text-center hover:bg-Green hover:text-black hover:scale-105 font-semibold bg-Gray"
+          href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="w-full p-2 rounded-[0.3rem] text-center hover:bg-Green hover:text-black hover:scale-105 font-semibold bg-Gray"
+          href="https://twitter.com/">Twitter</a>
+        <a class="w-full p-2 rounded-[0.3rem] text-center hover:bg-Green hover:text-black hover:scale-105 font-semibold bg-Gray"
+          href="https://www.instagram.com/ ">Instagram</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
