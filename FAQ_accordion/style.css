@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,600&family=Inter&family=Outfit:wght@400;600;700&family=Work+Sans:ital,wght@0,300;0,400;0,800;1,600&family=Young+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color:hsl(275, 100%, 97%)
+}
+
+.main-container {
+    margin: -10rem 32rem;
+    padding: 1rem;
+    /* border: 2px solid black; */
+    border-radius: 1rem;
+    position: absolute;
+    visibility: visible ; 
+    background-color: #fff;
+    height: fit-content;
+
+}
+
+.main-container h1 {
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.img-upper img{
+   width: 100%;
+
+}
+
+
+.questions img{
+    width: auto;
+    height: 1.3rem;
+    cursor: pointer;
+}
+
+.question-container{
+    /* border : 2px solid red; */
+    padding: 0.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sm-container {
+    /* border: 2px solid black ; */
+    padding: 0.5rem;
+    font-weight: 300;
+    font-size: smaller;
+    
+
+}
+.sm-container {
+    /* border: 2px solid yellow; */
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.box{
+    display : none;
+}
+
+p:hover {
+
+color:hsl(292, 16%, 49%)
+
+}
+
+@media screen and (max-width:375px) {
+   
+
+    .main-container {
+        padding: 0.5rem; 
+        margin: -6rem 2rem 1rem 1rem;
+        /* font-size: x-small; */
+    }
+
+    .img-upper img {
+        width: auto;
+        height: 13rem;
+    }
+}
