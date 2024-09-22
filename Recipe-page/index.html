@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title> Recipe page</title>
+  <style>
+    body {
+      font-family: "Young Serif", serif;
+      font-family: "Outfit", sans-serif;
+      background-color: #f2e8da;
+    }
+
+    .heading {
+      font-family: "Young Serif", serif;
+    }
+
+
+    .container {
+      background-color: white;
+    }
+
+    .lightpink-container {
+      background-color: rgb(255 241 253);
+
+    }
+
+    .preparation {
+      color: hsl(332, 51%, 32%);
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          screens: {
+            'mobile': '375px',
+            // => @media (min-width: 375px) { ... } // mobile devices
+          },
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="main-container sm:border-4 w-full flex items-center justify-center  ">
+    <div class="container md:w-[50vw] sm:w-[60vw] sm:p-10 border-2 rounded-2xl sm:my-[8rem]   ">
+      <div class="img-container">
+        <img class="img rounded-xl" src="./images/image-omelette.jpeg" alt="not found" />
+      </div>
+
+      <div class="padding sm:p-0 p-6 ">
+        <h1 class="heading sm:text-4xl text-3xl my-6 ">Simple Omelette Recipe</h1>
+        <p class="mb-4 ">
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
+        <div class="lightpink-container border-2 p-6 rounded-xl ">
+          <div class=" preparation font-semibold py-2 text-xl">Preparation time</div>
+          <ul class=" flex flex-col gap-2 list-disc ml-7 sm:text-[1rem] text-[0.95rem]">
+            <li class="text-[#854632] ">
+              <div class=" ml-4">
+                <strong>Total:</strong> Approximately 10 minutes
+              </div>
+            <li class="text-[#854632] ">
+              <div class=" ml-4">
+                <strong>Preparation:</strong> 5 minutes
+              </div>
+            </li>
+            <li class="text-[#854632] ">
+              <div class="ml-4">
+                <strong>Cooking:</strong> 5 minutes
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="white-container my-6">
+          <div class="heading text-[#854632] text-3xl ">Ingredients</div>
+          <ul class="flex flex-col gap-2 list-disc ml-2 mt-4 text-sm">
+            <li class="ml-4"><span class="ml-4 ">2-3 large eggs</span></li>
+            <li class="ml-4"><span class="ml-4 ">Salt, to taste</span></li>
+            <li class="ml-4"><span class="ml-4 ">Pepper, to taste</span></li>
+            <li class="ml-4"><span class="ml-4 ">1 tablespoon of butter or oil</span></li>
+            <li class="ml-4"><span class="ml-4 "> Optional fillinbolder;ese, diced vegetables, cooked meats,
+                herbs</span>
+
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="white-container-sec my-6">
+          <div class="heading text-[#854632] text-3xl">Instructions</div>
+          <ol class="flex flex-col gap-2 list-decimal ml-6 mt-4 sm:text-[1rem] text-[0.95rem]  ">
+            <li class="text-[#854632]  font-bold">
+              <div class="ml-5 text-black">
+                <strong>Beat the eggs:</strong> <span class=" font-normal "> In a bowl, beat the eggs with a
+                  pinch of salt and pepper until they are well mixed. You can add a
+                  tablespoon of water or milk for a fluffier texture.</span>
+              </div>
+
+            </li>
+            <li class="text-[#854632]  font-bold">
+              <div class="ml-5 text-black">
+                <strong>Heat the pan:</strong> <span class=" font-normal ">Place a non-stick frying pan over
+                  medium heat and add butter or oil. </span>
+              </div>
+
+            </li>
+            <li class="text-[#854632]  font-bold">
+              <div class="ml-5 text-black">
+                <strong>Cook the omelette:</strong> <span class=" font-normal "> Once the butter is melted and
+                  bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface. </span>
+              </div>
+
+
+            </li>
+            <li class="text-[#854632]  font-bold">
+              <div class="ml-5 text-black">
+                <strong>Add fillings (optional):</strong> <span class=" font-normal "> When the eggs begin to set
+                  at the edges but are still slightly runny in the middle, sprinkle
+                  your chosen fillings over one half of the omelette.</span>
+              </div>
+
+            </li>
+            <li class="text-[#854632]  font-bold">
+              <div class="ml-5 text-black">
+                <strong> Fold and serve:</strong> <span class=" font-normal ">
+                  As the omelette continues to cook,
+                  carefully lift one edge and fold it over the fillings. Let it cook
+                  for another minute, then slide it onto a plate.
+                </span>
+              </div>
+
+            </li>
+            <li class="text-[#854632]  font-bold">
+              <div class="ml-5 text-black">
+                <strong>Enjoy:</strong> <span class=" font-normal ">Serve hot, with additional salt and pepper if
+                  needed. </span>
+              </div>
+
+            </li>
+          </ol>
+        </div>
+        <hr />
+        <div class="white-container-third my-6">
+          <div class="heading text-[#854632] text-3xl ">Nutrition</div>
+          <p class=" my-4 text-[0.95rem] sm:text-lg ">
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
+          <div class="nutrition-table flex flex-col text-[0.8rem] text-[1rem]">
+            <div class="flex items-center justify-between p-4 px-8 ">
+              Caloriess
+              <div
+                class="brown text-[#854632] font-bold xl:pr-[16rem] lg:pr-[8rem] md:pr-[6rem]  xs:pr-[8rem]  sm:text-lg">
+                277kcal</div>
+            </div>
+            <hr />
+            <div class="flex items-center justify-between p-4 px-8 ">
+              Carbss
+              <div
+                class="brown2 text-[#854632] font-bold xl:pr-[16rem] lg:pr-[8rem] md:pr-[6rem]  xs:pr-[8rem]   sm:text-lg">
+                0g
+              </div>
+            </div>
+            <hr />
+            <div class="flex items-center justify-between p-4 px-8 ">
+              Proteins
+              <div
+                class="brown3 text-[#854632] font-bold xl:pr-[16rem] lg:pr-[8rem]  md:pr-[6rem] xs:pr-[8rem]   sm:text-lg">
+                20g
+              </div>
+            </div>
+            <hr />
+            <div class="flex items-center justify-between p-4 px-8 ">
+              Fats
+              <div
+                class="brown4 text-[#854632] font-bold xl:pr-[16rem] lg:pr-[8rem]  md:pr-[6rem] xs:pr-[8rem]   sm:text-lg">
+                22g
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
