@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+
+.main-container {
+    /* border : 2px solid black; */
+    border-radius: 1rem 1rem 10rem 1rem;
+    background-color: white;
+    margin: 4rem 24rem;
+    padding : 2rem 2rem 2rem 2rem;
+    height: 34rem;
+
+}
+
+.main-container2 {
+   width: 100%;
+
+}
+
+
+.day-section {
+    margin: 0.3rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 58%);
+
+}
+
+.month-section {
+    margin: 0.3rem 1.3rem 0.3rem 1.3rem ;
+    font-weight: 700;
+    color: hsl(0, 0%, 58%);
+    
+}
+
+.year-section {
+    margin: 0.3rem 1.3rem 0.3rem 0.3rem ;
+    font-weight: 700;
+    color: hsl(0, 0%, 58%);
+}
+
+
+.input-style{   
+    border: 2px solid hsl(0, 6%, 87%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 8rem;
+    height: 4rem;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+    border-radius: 0.3rem;
+
+}
+
+.sec-section {
+    margin-top: 1.5rem;
+    padding: 0;
+    font-size: 6rem;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 1.1;
+        
+
+}
+
+
+.img-section {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    width: auto;
+    height: 4rem;
+    margin-top: 6.5rem;
+    margin-right: 0rem;
+   
+}
+
+.flex-container {
+    display: flex ;
+    /* align-items: center; */
+}
+
+.flex-container-A {
+    display: flex ;
+    align-items: center;
+   
+}
+
+.values{
+    color: hsl(259, 100%, 65%);
+}
+
+@media screen and (max-width: 376px){
+
+        .main-container {
+            border-radius: 1rem 1rem 6rem 1rem;
+            margin: 4rem 1rem 0rem 1rem;
+            padding: 2.5rem 1rem 1rem 1rem;
+            width: auto;
+            height: 24rem;
+        }
+
+        .main-container2 {
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        .img-section{
+            background-color: hsl(259, 100%, 65%);
+            border-radius: 50%;
+            width: auto;
+            height: 2.5rem;
+            margin-top: 5.5rem;
+            position: absolute;
+            left: 9rem;
+
+            /* margin-right: 0rem; */
+           
+        }
+
+
+        .input-style{
+            font-size: 1rem;
+            padding: 0.2rem 0.5rem 0.2rem 0.2rem;
+            width:4rem;
+            height: 2.5rem;
+        }
+
+        .month-section{
+            font-size: 0.5rem;
+        }
+        .year-section{
+            font-size: 0.5rem;
+        }
+        .day-section{
+            font-size: 0.5rem;
+        }
+        .sec-section{
+            font-size: 2.5rem;
+        }
+        
+    
+}
