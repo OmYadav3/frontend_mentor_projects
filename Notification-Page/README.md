@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Design preview for the Notification page coding challenge](./design/desktop-preview.jpg)
 
 ### Links
 
