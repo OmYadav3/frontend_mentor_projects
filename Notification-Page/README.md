@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Notification page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Notification page coding challenge](./src/design/desktop-preview.jp)
 
 ### Links
 
